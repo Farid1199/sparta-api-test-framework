@@ -1,0 +1,30 @@
+[
+  {
+    "firstName": "Jonathan",
+    "lastName": "Livingston",
+    "university": "Oxford University",
+    "degree": "Computer Science",
+    "course": {
+      "name": "TECH 300",
+      "trainer": "Phil Windridge",
+      "stream": {
+        "name": "Java Dev"
+      }
+    },
+    "graduated": false
+  },
+  {
+    "firstName": "Eleanor",
+    "lastName": "Roosevelt",
+    "university": "Cambridge University",
+    "degree": "Data Science",
+    "course": {
+      "name": "TECH 301",
+      "trainer": "Catherine French",
+      "stream": {
+        "name": "Java Test"
+      }
+    },
+    "graduated": true
+  }
+]
