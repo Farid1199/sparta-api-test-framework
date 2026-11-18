@@ -1,5 +1,6 @@
 package com.sparta.utils;
 
+import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 
@@ -15,7 +16,7 @@ public class JsonDataReader {
                 throw new IllegalArgumentException("File not found in resources: " + relativePath);
             }
             return new String(inputStream.readAllBytes(), StandardCharsets.UTF_8);
-        } catch (Exception e) {
+        } catch (IOException e) {
             throw new RuntimeException("Failed to read file: " + relativePath, e);
         }
     }
